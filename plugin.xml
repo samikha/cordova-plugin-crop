@@ -19,6 +19,7 @@
 
   <js-module src="www/crop.js" name="CropPlugin">
     <clobbers target="plugins.crop" />
+    <clobbers target="plugins.crop_fixed_ratio_800x600" />
   </js-module>
 
   <!-- ios -->
