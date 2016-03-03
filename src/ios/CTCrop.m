@@ -92,6 +92,7 @@
     CGFloat length = MIN(width, height);
     cropController.toolbarHidden = YES;
     cropController.rotationEnabled = NO;
+    cropController.keepingCropAspectRatio = YES;    
     
     // TODO parameterize this
     cropController.imageCropRect = CGRectMake(0,
@@ -144,7 +145,8 @@
     CGFloat length = MIN(width, height);
     cropController.toolbarHidden = YES;
     cropController.rotationEnabled = NO;
-    
+    cropController.keepingCropAspectRatio = YES;    
+
     // TODO parameterize this
     cropController.imageCropRect = CGRectMake(0,
                                           0,
