@@ -86,13 +86,10 @@
     PECropViewController *cropController = [[PECropViewController alloc] init];
     cropController.delegate = self;
     cropController.image = image;
-    // e.g.) Cropping center square
-    CGFloat width = image.size.width;
-    CGFloat height = image.size.height;
-    CGFloat length = MIN(width, height);
     cropController.toolbarHidden = YES;
     cropController.rotationEnabled = NO;
-    cropController.keepingCropAspectRatio = YES;    
+    cropController.keepingCropAspectRatio = YES;
+    cropController.cropAspectRatio = 800.0f / 600.0f;
     
     // TODO parameterize this
     cropController.imageCropRect = CGRectMake(0,
@@ -139,13 +136,10 @@
     PECropViewController *cropController = [[PECropViewController alloc] init];
     cropController.delegate = self;
     cropController.image = image;
-    // e.g.) Cropping center square
-    CGFloat width = image.size.width;
-    CGFloat height = image.size.height;
-    CGFloat length = MIN(width, height);
     cropController.toolbarHidden = YES;
     cropController.rotationEnabled = NO;
     cropController.keepingCropAspectRatio = YES;    
+    cropController.cropAspectRatio = 1.0f;
 
     // TODO parameterize this
     cropController.imageCropRect = CGRectMake(0,
