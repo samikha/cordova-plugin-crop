@@ -2,6 +2,12 @@
 
 > Crop an image in a Cordova app
 
+-Made the color in Android programmable
+-For iOS, added this:
+https://github.com/kishikawakatsumi/PEPhotoCropEditor/pull/52
+And:
+https://github.com/kishikawakatsumi/PEPhotoCropEditor/issues/51#issuecomment-72164401
+
 
 ## Install
 
